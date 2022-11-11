@@ -40,7 +40,7 @@ body * {
 }
 
 .slot-logo {
-  width: 40%;
+  width: 20%;
   margin-bottom: 20px;
 }
 
@@ -51,7 +51,7 @@ body * {
 
 @media screen and (max-width: 600px) {
   .slot-logo {
-    width: 80%;
+    width: 95%;
   }
 }
 
