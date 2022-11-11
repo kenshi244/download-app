@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "SF Medium";
+  src: url("../fonts/sf-pro-display_medium.woff2");
+}
+
+@font-face {
+  font-family: "SF Regular";
+  src: url("../fonts/sf-pro-display_regular.woff2");
+}
+
+@font-face {
+  font-family: "SF Semibold";
+  src: url("../fonts/sf-pro-display_semibold.woff2");
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  font-family: "SF Medium";
+  background: #121212;
+  color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+.slot-logo {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.slot-logo img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .slot-logo {
+    width: 80%;
+  }
+}
+
+h2 {
+  font-family: "SF Medium";
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: "SF Regular";
+  font-size: 20px;
+}
+
+.apple-icon {
+  width: 20%;
+}
+
+.apple-icon img {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .apple-icon {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
